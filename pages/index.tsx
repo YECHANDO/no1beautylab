@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <LogoBox className={styles.logobox}>
       <div>
       <img src="/logo.svg" alt="Vercel Logo" />
-      <div>준비중...</div>
+      <P>준비중...</P>
       </div>
     </LogoBox>
   );
@@ -24,12 +24,13 @@ const LogoBox = styled.div`
   padding: 0px;
   margin: 0px;
   img {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
   }
-  div {
-    font-size: 1.25rem;
-    font-weight: 500;
-    text-align: center;
-    padding: 20px;
-  }
+`;
+const P = styled.p`
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+
 `
