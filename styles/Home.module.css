@@ -2,16 +2,6 @@
   padding: 0 2rem;
 }
 
-.logo {
-  display: inline-block;
-  width: 30%;
-  position: fixed;
-  right: calc(50% - 15%);
-  top: 50%;
-  padding: 0px;
-  margin: 0px;
-}
-
 .main {
   min-height: 100vh;
   padding: 4rem 0;
